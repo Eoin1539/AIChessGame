@@ -24,9 +24,20 @@ public class AIAgent{
     return selectedMove;
   }
 
-  public Move nextBestMove(Stack possibilities){
-    Move selectedMove = new Move();
-    return selectedMove;
+  public Move nextBestMove(Stack possibilities, Stack blackMoves){
+    blackM = (Stack)blackMoves.clone();
+
+    Move highestMove = new Move();
+
+    while(!possibilities.empty()){
+
+    }
+
+
+
+
+
+    return highestMove;
   }
 
   public Move twoLevelsDeep(Stack possibilities){
